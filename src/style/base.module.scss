@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+$box-color: rgb(127, 214, 182);
+
+
+@mixin fontLogo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-left: 6.5rem;
+    font-weight: 700;
+    color: #404040;
+}
+
+.root {
+    background-color: rgb(224, 224, 224);
+}
+
+@mixin container {
+    box-sizing: border-box;
+    padding-left: 8%;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}

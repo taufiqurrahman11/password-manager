@@ -1,0 +1,39 @@
+{
+  "password": [
+    {
+      "provider": "test2231.com",
+      "email": "testdua@gmail.com",
+      "password": "123456",
+      "category": "family",
+      "id": 9
+    },
+    {
+      "provider": "taufiq",
+      "email": "taufiqoo.sa@gmail.com",
+      "password": "123123",
+      "category": "work",
+      "id": 10
+    },
+    {
+      "provider": "sarah",
+      "email": "sarah@gmail.com",
+      "password": "asdasdas",
+      "category": "personal",
+      "id": 11
+    },
+    {
+      "provider": "putri",
+      "email": "putri@gmail.com",
+      "password": "1231231",
+      "category": "personal",
+      "id": 12
+    },
+    {
+      "provider": "dzakiayah",
+      "email": "dzakiyah@gmail.com",
+      "password": "1231231231",
+      "category": "work",
+      "id": 13
+    }
+  ]
+}

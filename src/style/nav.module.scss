@@ -1,0 +1,58 @@
+@import './base.module.scss';
+
+.container {
+    width: 100%;
+    display: flex;
+    background-color: skyblue;
+    position: fixed;
+    margin-left: -10px;
+    margin-top: -12px;
+
+    h2 {
+        display: inline-block;
+        @include fontLogo;
+        text-decoration: none;
+    }
+
+    .nav {
+        display: inline-block;
+
+        ul {
+            display: flex;
+            margin-left: 10rem;
+            
+            .li {
+                list-style-type: none;
+                margin-right: 50px;
+                margin-top: 24px;
+
+                a {
+                    text-decoration: none;
+                    color: #404040;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        height: 100px;
+        position: fixed;
+
+    
+        h2 {
+            display: none;
+        }
+    
+        .nav {
+            display: inline-block;
+    
+            ul {
+                display: flex;
+                margin-left: 2.7rem;
+            }
+        }
+    }
+}
